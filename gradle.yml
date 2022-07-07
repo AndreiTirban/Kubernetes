@@ -21,7 +21,7 @@ spec:
             - containerPort: 8080
           volumeMounts:
             - name: persistent-volume
-              mountPath: /usr/app/data
+              mountPath: /tmp/data
       volumes:
         - name: persistent-volume
           persistentVolumeClaim:
