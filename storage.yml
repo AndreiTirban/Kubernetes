@@ -13,7 +13,7 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   volumeMode: Filesystem
   hostPath:
-    path: /usr/app/data
+    path: /tmp/data
     type: DirectoryOrCreate
 
 ---
